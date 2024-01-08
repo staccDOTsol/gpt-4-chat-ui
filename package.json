@@ -10,13 +10,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@coral-xyz/anchor": "^0.29.0",
     "@emotion/react": "^11.10.8",
     "@emotion/styled": "^11.10.8",
     "@microsoft/fetch-event-source": "^2.0.1",
     "@mui/material": "^5.12.2",
+    "@particle-network/auth": "^1.2.2",
+    "@solana/spl-token": "^0.3.10",
+    "@solana/wallet-adapter-base": "^0.9.23",
+    "@solana/wallet-adapter-react": "^0.15.35",
+    "@solana/wallet-adapter-react-ui": "^0.9.34",
+    "@solana/wallet-adapter-wallets": "^0.19.25",
+    "@switchboard-xyz/solana.js": "^3.1.6",
     "@types/node": "18.16.2",
     "@types/react": "18.2.0",
     "@types/react-dom": "18.2.1",
+    "buffer": "^6.0.3",
     "dotenv": "^16.0.3",
     "eslint": "8.39.0",
     "eslint-config-next": "13.3.1",
@@ -30,6 +39,7 @@
     "react-dom": "18.2.0",
     "react-markdown": "^8.0.7",
     "remark-gfm": "^3.0.1",
+    "tiktoken": "^1.0.11",
     "typescript": "5.0.4"
   }
 }
